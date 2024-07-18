@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import SimpleExercises from "./SimpleExercises";
 import SimpleToDoList from "./SimpleToDoList";
 import TabList from "./TabList";
+import RemovableItemList from "./RemovableItemList";
+import RemovableItemList2 from "./RemovableItemList2";
 
 // const languages = ['JavaScript', 'PHP', 'Ruby', 'C#'];
 
-function App() {
+{/*function App() {
   //  return (
   //     <SimpleToDoList items={[
   //       "Learn JavaScript",
@@ -21,6 +23,29 @@ function App() {
         selected={1}
       />
     </div>
+  );
+} */}
+
+// function App() {
+//   return (
+//      <RemovableItemList items={[
+//         'Python',
+//         'JavaScript',
+//         'PHP',
+//         'Dart'
+//      ]} />
+//   )
+// }
+
+
+function App() {
+  return (
+     <RemovableItemList2 items={[
+        'Python',
+        'JavaScript',
+        'PHP',
+        'Dart'
+     ]}/>
   );
 }
 
