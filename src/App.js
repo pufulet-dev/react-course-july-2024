@@ -4,6 +4,8 @@ import SimpleToDoList from "./SimpleToDoList";
 import TabList from "./TabList";
 import RemovableItemList from "./RemovableItemList";
 import RemovableItemList2 from "./RemovableItemList2";
+import InputEditSaveExercise from './InputEditSaveExercise';
+import SearchInput from "./SearchInput";
 
 // const languages = ['JavaScript', 'PHP', 'Ruby', 'C#'];
 
@@ -38,15 +40,33 @@ import RemovableItemList2 from "./RemovableItemList2";
 // }
 
 
+// function App() {
+//   return (
+//      <RemovableItemList2 items={[
+//         'Python',
+//         'JavaScript',
+//         'PHP',
+//         'Dart'
+//      ]}/>
+//   );
+// }
+
+// function App () {
+//   return (
+//     <>
+//       <InputEditSaveExercise />
+//     </>
+//   );
+// }
+
+
+// SEARCH INPUT EXERCISE
+
 function App() {
   return (
-     <RemovableItemList2 items={[
-        'Python',
-        'JavaScript',
-        'PHP',
-        'Dart'
-     ]}/>
+     <SearchInput />
   );
 }
+
 
 export default App;
