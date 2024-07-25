@@ -10,6 +10,9 @@ import CardNumberInput from "./CardNumberInput";
 import EmailInput from "./EmailInput";
 import PasswordInput from "./PasswordInput";
 import TrackedTextarea from "./TrackedTextarea";
+import LayoutEffectExample from "./LayoutEffectExample";
+import MemoExercise from "./MemoExercise";
+import ReducerPractice from "./ReducerPractice";
 
 // const languages = ['JavaScript', 'PHP', 'Ruby', 'C#'];
 
@@ -128,9 +131,35 @@ import TrackedTextarea from "./TrackedTextarea";
 
 
 // TRACKED TEXTAREA EXERCISE:
+// function App () {
+//   return (
+//     <TrackedTextarea length={200} value="Type smth here..." />
+//   );
+// }
+
+
+// LAYOUT EFFECT EXAMPLE:
+// function App () {
+//   return (
+//     <LayoutEffectExample />
+//   );
+// }
+
+
+// USE MEMO EXERCISE
+// function App () {
+//   return (
+//     <MemoExercise list={["Python", "PHP", "JavaScript", "Perl", "Phaser", "Parrot", "ASP.net", "C#", "C", "C++"]} />
+//   );
+// }
+
+
+// REDUCER PRACTICE
 function App () {
   return (
-    <TrackedTextarea length={200} value="Type smth here..." />
+    <>
+      <ReducerPractice />
+    </>
   );
 }
 

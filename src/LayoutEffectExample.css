@@ -1,0 +1,6 @@
+.box {
+    background-color: rgb(245, 151, 206);
+    transition: 2s ease;
+    font-size: 66px;
+    overflow: hidden;
+}
